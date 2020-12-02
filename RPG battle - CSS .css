@@ -1,4 +1,15 @@
-section{
-  background-color: #C8A29A;
-  border: 2px solid #E3DFDE;
+body{
+	background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/01073865290819.5d61d475f0072.jpg");
 }
+
+section{
+  display: flex;
+  justify-content: space-around;
+}
+
+.box1{
+  background-color: #C8A29A;
+  border: thick double #E3DFDE;
+  padding: 10px;
+}
+
