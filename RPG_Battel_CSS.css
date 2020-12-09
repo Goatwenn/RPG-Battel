@@ -1,0 +1,65 @@
+/* -------------------- Body -------------------- */
+body{
+	background-image:url(asset/background.jpg);
+	}
+
+
+	
+/* --------------- Box_Principale --------------- */
+/* Box_Principale */
+
+#box_1{
+	display:flex;
+	
+}
+
+
+/* Box_Personages*/
+#box_1_1{
+	display:flex;
+	flex-direction: row;
+	
+}
+/* Box_Personages_1*/
+#box_1_1_1{
+	height: 35xp
+}
+/* Box_Personages_2*/
+#box_1_1_2{
+	
+}
+/* Box_Personages_3*/
+#box_1_1_3{
+	
+}
+/* Box_Personages_4*/
+#box_1_1_4{
+	
+}
+
+
+/* Box_Monstre*/
+#box_1_2{
+	
+}
+/* Box_Monstre_1*/
+#box_1_2_1{
+	
+}
+
+
+
+
+/* ----------------- Classe ------------------ */
+.perso{
+	background-color: #C8A29A;
+	border: 3mm ridge #E3DFDE;
+	padding: 10px;
+}
+
+.monstre{
+	background-color: #C8A29A;
+	border: 3mm ridge #E3DFDE;
+	padding: 10px;
+}
+
