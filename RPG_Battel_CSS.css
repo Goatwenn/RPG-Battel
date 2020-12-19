@@ -11,7 +11,7 @@ body {
 /* ----------------- Box ---------------------- */
 
 .box_perso {
-    border: 3mm ridge #FF0000;
+    
     padding-top: 10px;
     padding-bottom: 30px;
     display: flex;
@@ -19,7 +19,7 @@ body {
 }
 
 .box_monstre {
-    border: 3mm ridge #FF0000;
+    
     padding-top: 70px;
     padding-bottom: 30px;
     display: flex;
@@ -27,7 +27,7 @@ body {
 }
 
 .box_action {
-    border: 3mm ridge #FF0000;
+  
     padding-bottom: 60px;
     display: flex;
     justify-content: center;
@@ -46,30 +46,26 @@ body {
 }
 
 .box_2_1 {
-    background-image: url(asset/monstre.jpg);
+    background-image: url(asset/monstre.png);
 	background-size: contain;
 	background-repeat: no-repeat;
-    padding: 100px;
+    padding: 150px;
 }
 
 .box_2_2 {
-    background-image: url(asset/monstre.jpg);
+    background-image: url(asset/monstre.png);
 	background-size: contain;
 	background-repeat: no-repeat;
-    padding: 70px;
+	padding: 70px;
 }
+
 
 .box_3_1 {
     background-color: #C8A29A;
     border: 3mm ridge #E3DFDE;
 	padding: 5px;
-    padding-right:75px;
-	padding-left:75px;
+    width: 150px;
 }
-
-
-
-
 
 
 
@@ -105,3 +101,19 @@ body {
 	font-family: Gill Sans, sans-serif;
 	
 }
+
+
+/* ----------------- Info bulle ---------------------- */
+.infobulle{
+	transform: scale();
+	position: absolute;
+	
+	background-color : #2e304e;
+	color : white;
+	border-radius : 5px;
+	padding; 5px:
+	
+	
+}
+
+
